@@ -1,0 +1,85 @@
+{
+    "age greater than retirement age": {
+        "currentAge" : "60",
+        "retiringAge" : "50",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$500000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidretiringAgeErrorMsg" : "Planned retirement age must be greater than current age"
+    },
+    "invalid age": {
+        "currentAge" : "0",
+        "retiringAge" : "0",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$500000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidAgeErrorMsg": "Age cannot be 0",
+        "invalidretiringAgeErrorMsg" : "Age cannot be 0"
+    },
+    "negative age": {
+        "currentAge" : "-25",
+        "retiringAge" : "65",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$500000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidAgeErrorMsg": "Age cannot be negative",
+        "invalidretiringAgeErrorMsg" : "Planned retirement age must be greater than current age"
+    },
+    "invalid income format": {
+        "currentAge" : "35",
+        "retiringAge" : "65",
+        "currentAnnualIncome" : "abc123",
+        "spouseAnnualIncome" : "xyz$%",
+        "currentRetirementSavings" : "$500000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidIncomeErrorMsg": "Income must be a valid number",
+        "invalidSpouseIncomeErrorMsg": "Spouse income must be a valid number"
+    },
+    "negative savings amount": {
+        "currentAge" : "35",
+        "retiringAge" : "65",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "-500000",
+        "currentAnnualSavings" : "-10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidSavingsErrorMsg": "Savings amount cannot be negative",
+        "invalidAnnualSavingsErrorMsg": "Annual savings cannot be negative"
+    },
+    "retirement age less than age": {
+        "currentAge" : "50",
+        "retiringAge" : "40",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$500000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : ".25",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidRetirementAgeErrorMsg": "Retirement age must be greater than current age"
+    },
+    "invalid characters in fields": {
+        "currentAge" : "50@#",
+        "retiringAge" : "65$%",
+        "currentAnnualIncome" : "100000abc",
+        "spouseAnnualIncome" : "75000!@",
+        "currentRetirementSavings" : "500000*&",
+        "currentAnnualSavings" : "10xyz",
+        "interestRate" : "0.25@@",
+        "errorMsg" : "Please fill out all required fields",
+        "invalidCharactersErrorMsg": "Fields must not contain invalid characters"
+    }
+
+   
+}

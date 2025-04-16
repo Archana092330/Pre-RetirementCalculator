@@ -1,0 +1,36 @@
+{
+    "all": {
+        "currentAge" : "40",
+        "retiringAge" : "68",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$50000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : "10",
+        "socialSecurityOption": "yes",
+        "maritalStatus": "married",
+        "overrideAmount": "$4000"
+        
+    },
+    "required": {
+        "currentAge" : "40",
+        "retiringAge" : "68",
+        "currentAnnualIncome" : "$100000",
+        "spouseAnnualIncome" : "$75000",
+        "currentRetirementSavings" : "$50000",
+        "currentAnnualSavings" : "10",
+        "interestRate" : "10",
+        "successMessage" : "In order to retire by 68, you might need to consider increasing your monthly savings by $1,045 a month."
+    },
+
+    "default": {
+        "extraIncome" : "$5000",
+        "retirementYears" : "15",
+        "finalAnnualIncome" : "50000",
+        "preRetirementReturn" : "10",
+        "postRetirementReturn" : "10"
+    }
+
+
+   
+}

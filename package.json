@@ -1,0 +1,26 @@
+{
+  "name": "securian-automation",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Securian UI Testing",
+  "main": "index.js",
+  "author": {
+    "name": "Archana Pandian"
+  },
+  "scripts": {
+    "test": "cross-env NODE_OPTIONS=--experimental-vm-modules wdio run wdio.conf.cjs",
+    "wdio": "cross-env NODE_OPTIONS=--experimental-vm-modules wdio",
+    "test:retirement": "cross-env NODE_OPTIONS=--experimental-vm-modules wdio run wdio.conf.cjs --cucumberOpts.tagExpression='@securian and @retiremenetSavingswithoutUpdatingthedefaultValues'"
+  },
+  "devDependencies": {
+    "@wdio/cli": "^9.12.5",
+    "@wdio/cucumber-framework": "^9.12.5",
+    "@wdio/local-runner": "^9.12.5",
+    "@wdio/spec-reporter": "^9.12.3",
+    "cross-env": "^7.0.3"
+  },
+  "dependencies": {
+    "pdfkit": "^0.16.0",
+    "requirejs": "^2.3.7"
+  }
+}
